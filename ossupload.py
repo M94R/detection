@@ -17,7 +17,7 @@ endpoint = 'oss-cn-beijing.aliyuncs.com'
 bucket_name = 'networkassessment'
 
 oss_manager = OSSManager(access_key_id, access_key_secret, endpoint, bucket_name)
-file_path = '/home/songxin/detection/'
+file_path = '/home/xuzy/detection/'
 file_names = ['cpu_log.txt', 'networks_log.txt', 'process_log.txt']
 
 def attack_upload(file_path, file_name, target_path):
