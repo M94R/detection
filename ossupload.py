@@ -42,5 +42,5 @@ while True:
     new_folder_name = '192.168.84.162/' + current_time + '/'
     target_path = 'node-resource/' + new_folder_name
     upload_threads(target_path)
-    time.sleep(300)  # 等待5分钟
+    time.sleep(180)  # 等待5分钟
 
