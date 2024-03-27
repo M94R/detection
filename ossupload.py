@@ -39,7 +39,7 @@ def upload_threads(target_path):
 # 循环上传文件
 while True:
     current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    new_folder_name = current_time + '/'
+    new_folder_name = '192.168.84.162/' + current_time + '/'
     target_path = 'node-resource/' + new_folder_name
     upload_threads(target_path)
     time.sleep(300)  # 等待5分钟
